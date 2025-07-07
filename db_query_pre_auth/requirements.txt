@@ -8,4 +8,4 @@ oracledb==2.2.1
 psycopg2-binary==2.9.10
 pymssql==2.3.4
 dmPython==2.5.8
-sqlalchemy_dm==2.0.0
+sqlalchemy_dm-2.0.3-py3-none-any.whl
