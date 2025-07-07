@@ -29,6 +29,10 @@ credentials_for_provider:
         label:
           en_US: Oracle
           zh_Hans: Oracle
+      - value: DM
+        label:
+          en_US: DM
+          zh_Hans: DM
       - value: oracle11g
         label:
           en_US: Oracle11g
