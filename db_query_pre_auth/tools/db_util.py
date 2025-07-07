@@ -4,7 +4,7 @@ from typing import Optional
 from urllib import parse
 from uuid import UUID
 
-import oracledb,dmPython
+import oracledb
 import pandas as pd
 from pandas import Timestamp
 from sqlalchemy import create_engine
@@ -42,7 +42,7 @@ class DbUtil:
         elif self.db_type in {'oracle', 'oracle11g'}:
             driver_name = 'oracle+oracledb'
         elif self.db_type  = 'dm':
-            driver_name = 'oracle+oracledb'
+            driver_name = 'dm+dmPython'
         elif self.db_type == 'postgresql':
             driver_name = 'postgresql+psycopg2'
         elif self.db_type == 'mssql':
