@@ -41,7 +41,7 @@ class DbUtil:
             driver_name = 'mysql+pymysql'
         elif self.db_type in {'oracle', 'oracle11g'}:
             driver_name = 'oracle+oracledb'
-        elif self.db_type  = 'dm':
+        elif self.db_type == 'dm':
             driver_name = 'dm+dmPython'
         elif self.db_type == 'postgresql':
             driver_name = 'postgresql+psycopg2'
